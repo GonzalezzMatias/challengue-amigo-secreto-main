@@ -1,0 +1,1 @@
+El amigo secreto es un juego que sirve para que el usuario ingrese los nombres de sus amigos, mostrarlos en pantalla a medida que los va agregando, sortear aleatoriamente entre esa lista de amigos y que le muestre por pantalla  al amigo secreto sorteado.
