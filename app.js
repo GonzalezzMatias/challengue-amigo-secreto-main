@@ -3,11 +3,11 @@ let amigos = [];
 function agregarAmigo(){
     let nombre = document.getElementById('amigo').value.trim();
     if (nombre == '') {
-        mensaje = document.getElementById('mensaje-error');
+        let mensaje = document.getElementById('mensaje-error');
         mensaje.textContent = 'No se puede ingresar nombre vacío';
         mensaje.style.display = 'block';
       } else {
-        mensaje.style.display = 'none';
+        document.getElementById('mensaje-error').style.display = 'none';
         amigos.push(nombre);
         console.log(nombre);
         console.log(amigos);
