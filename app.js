@@ -4,7 +4,7 @@ function agregarAmigo(){
     let nombre = document.getElementById('amigo').value.trim();
     if (nombre == '') {
         let mensaje = document.getElementById('mensaje-error');
-        mensaje.textContent = 'No se puede ingresar un elemento vacío';
+        mensaje.textContent = 'No se puede ingresar un elemento vacio';
         mensaje.style.display = 'block';
       } else {
         document.getElementById('mensaje-error').style.display = 'none';
